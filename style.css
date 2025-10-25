@@ -301,6 +301,7 @@ body {
 /* ============== */
 
 @media (max-width: 1024px) {
+  /* Tablet */
   .bento-grid {
     grid-auto-rows: initial;
     grid-template-areas:
@@ -320,6 +321,7 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* Mobile */
   .bento-grid {
     grid-template-areas:
       "box2"
